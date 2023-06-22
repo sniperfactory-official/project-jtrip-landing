@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+ <html lang="ko" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제이트립 | 스마트한 여행 계획 커뮤니티</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/180x180.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="images/180x180.png">
+    <meta name="description" 
+        content="스마트한 여행 계획 커뮤니티, 제이트립"
+    >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'TAEBAEKmilkyway';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body { 
+            font-family: 'TAEBAEKmilkyway';
+        }
+    </style>
+</head>
+<body>
+    <header class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 sticky top-0 z-50 backdrop-filter backdrop-blur-md">
+        <!--  -->
+        <nav class="">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl z-50">
+                <a href="/" class="flex items-center">
+                    <img src="/images/180x180.png" class="mr-3 h-6 sm:h-9" alt="제이트립 Logo" />
+                </a>
+                <div class="hidden lg:flex items-center lg:order-2">
+                    <a href="#" class=" dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">다운로드 준비중</a>
+                    <!-- <a href="#" class="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-600 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">AppStore에서 열기</a> -->
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-white dark:bg-gray-900 text-white relative">
+        <!-- background video -->
+        <!-- <div class="grid py-24 px-4 mx-auto max-w-screen-xl lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 z-30 relative">
+            <div class="place-self-center mr-auto lg:col-span-7">
+                <h1 class="max-w-2xl text-4xl tracking-tight font-bold leading-none md:text-5xl xl:text-6xl dark:text-white drop-shadow-2xl">
+                    스마트한
+                </h1>
+                <h1 class="mb-4 max-w-2xl text-4xl tracking-tight font-bold leading-none md:text-5xl xl:text-6xl dark:text-white drop-shadow-2xl">
+                    여행 계획 커뮤니티
+                </h1>
+                <p class="max-w-2xl font-light text-white md:text-lg lg:text-xl dark:text-gray-400">
+                    여행의 A to Z를
+                </p>
+                <p class="mb-6 max-w-2xl font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    제이트립에서 만나보세요
+                </p>
+                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    플레이콘솔(준비중)
+                </a> 
+                <a href="#" class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-900">
+                    앱스토어(준비중)
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex translate-y-16">
+              <img src="/images/mockup.png" class="object-cover z-10" alt="mockup">
+            </div>        
+        </div> -->
+
+        <section class="text-white body-font">
+            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col z-30 relative">
+              <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-5xl mb-4 font-medium">
+                    스마트한 여행 계획 커뮤니티
+                </h1>
+                <p class="mb-8 leading-relaxed">
+                    여행의 A to Z를 제이트립에서 만나보세요
+                </p>
+              </div>
+              <img class="lg:w-1/5 md:w-2/6 w-3/6 mt-10 object-cover object-center rounded shadow-2xl hover:scale-105 duration-1000" alt="hero" src="/images/mockup.png">
+            </div>
+            </section>
+
+        <video autoplay muted loop playsinline id="v" class="absolute inset-0 object-cover w-full h-full z-0">
+            <source src="/images/promotion.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="mb-8 max-w-screen-md lg:mb-16">
+                <h2 class="mb-4 text-4xl font-extrabold text-blue-900 dark:text-white">핵심적인 기능</h2>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-400">제이트립에는 여러 기능이 포함되어 있습니다.</p>
+            </div>
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">계획 공유하기</h3>
+                    <p class="text-gray-500 dark:text-gray-400">여행가는 사람들과 함께 전체적인 계획을 세우고 공유</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">여행 예산 세우기</h3>
+                    <p class="text-gray-500 dark:text-gray-400">여행 예산을 세우고 일자별/유형별 예산을 한눈에 파악</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>                    
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">여행 후기</h3>
+                    <p class="text-gray-500 dark:text-gray-400">사전에 세워둔 계획과 함께 여행 후기 게시글을 공유</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">팔로우/팔로잉</h3>
+                    <p class="text-gray-500 dark:text-gray-400">친한 사람들에게 여행 계획을 공유할 수 있음</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">스크랩</h3>
+                    <p class="text-gray-500 dark:text-gray-400">나중에 가보고 싶은 여행지에 대한 게시글을 저장함</p>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+                        <svg class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">테마별 여행</h3>
+                    <p class="text-gray-500 dark:text-gray-400">다양한 테마의 여행 계획과 후기들을 한눈에 볼 수 있음</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="bg-white dark:bg-gray-900">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl font-extrabold text-blue-900 dark:text-white">혹시...</h2>
+                <p>계획적인 여행을 하고 싶으신가요?</p>
+                <p class="mb-4">즐거웠던 여행을 추억하고 싶으신가요?</p>
+                <p>제이트립과 함께하세요</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg shadow-lg " src="images/2.png" alt="2">
+                <img class="w-full rounded-lg shadow-lg " src="images/1.png" alt="1">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="bg-gray-50 dark:bg-gray-900 py-4">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h2 class="mb-4 text-4xl font-extrabold leading-tight text-blue-900 dark:text-white">지금 바로 시작해볼까요?</h2>
+                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">앱스토어에서 쉽게 다운로드 하세요.</p>
+                <a href="#" class="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-600 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">AppStore(준비중)</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">제이트립</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">"계획적인 여행을 하고 싶으신가요? 즐거웠던 여행을 추억하고 싶으신가요?"</p>
+          </div>
+        <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/2">
+            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m4.png">
+                <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">해리</h2>
+                <h3 class="text-gray-500 mb-3">프로젝트매니저</h3>
+                <p class="mb-4">mh.yeom@sniperfactory.com</p>
+                </div>
+            </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m1.png">
+                <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">시리</h2>
+                <h3 class="text-gray-500 mb-3">기술멘토</h3>
+                <p class="mb-4">monocsp@naver.com</p>
+                <span class="inline-flex">
+                    <a class="ml-2 text-gray-500" href="https://github.com/monocsp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </span>
+            </div>
+            </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m7.png">
+                <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">최강</h2>
+                <h3 class="text-gray-500 mb-3">개발자</h3>
+                <p class="mb-4">spck2000@naver.com</p>
+                </div>
+            </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m5.png">
+                <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">이상혁</h2>
+                <h3 class="text-gray-500 mb-3">개발자</h3>
+                <p class="mb-4">dktmskf96@gmail.com</p>
+                <span class="inline-flex">
+                    <a class="text-gray-500" href="https://saing0813.tistory.com/">
+                    <svg class="-translate-y-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="32" height="32" viewBox="0 0 400 400" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                        <g id="icon" transform="matrix(1.04895,0,0,1.04895,38.4615,44.7552)">
+                            <g transform="matrix(1.00704,0,0,1.00704,-13.169,30.1761)">
+                                <circle cx="166" cy="117" r="142" style="fill:rgb(13,13,13);"/>
+                            </g>
+                            <g>
+                                <g transform="matrix(0.986042,0,0,0.986042,0.428741,-1.92393)">
+                                    <circle cx="93" cy="103" r="25" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(0.986042,0,0,0.986042,62.2981,-1.92393)">
+                                    <circle cx="93" cy="103" r="25" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(0.986042,0,0,0.986042,62.2981,59.9454)">
+                                    <circle cx="93" cy="103" r="25" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(0.986042,0,0,0.986042,62.2981,121.815)">
+                                    <circle cx="93" cy="103" r="25" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(0.986042,0,0,0.986042,124.167,-1.92393)">
+                                    <circle cx="93" cy="103" r="25" style="fill:white;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    </a>
+                </span>
+                </div>
+            </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+                <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m2.png">
+                    <div class="flex-grow sm:pl-8">
+                    <h2 class="title-font font-medium text-lg text-gray-900">남효현</h2>
+                    <h3 class="text-gray-500 mb-3">개발자</h3>
+                    <p class="mb-4">skagygus8@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+                <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m6.png">
+                    <div class="flex-grow sm:pl-8">
+                    <h2 class="title-font font-medium text-lg text-gray-900">오민진</h2>
+                    <h3 class="text-gray-500 mb-3">UX/UI 디자이너</h3>
+                    <p class="mb-4">omj5611@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+            <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/images/m3.png">
+                <div class="flex-grow sm:pl-8">
+                    <h2 class="title-font font-medium text-lg text-gray-900">하예진</h2>
+                    <h3 class="text-gray-500 mb-3">UX/UI 디자이너</h3>
+                    <p class="mb-4">yjha0512@naver.com</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 mt-24">
+        <div class="mx-auto max-w-screen-xl">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="images/180x180.png" class="mr-3 h-8" alt="Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">제이트립</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-blue-900 uppercase dark:text-white">제작</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="https://sniperfactory.com/" class="hover:underline">스나이퍼팩토리 제이트립팀</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-blue-900 uppercase dark:text-white">기타</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="#" target="_blank" class="hover:underline">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="hover:underline">이용약관</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-xs text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://sniperfactory.com/" class="hover:underline">스나이퍼팩토리</a>. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script> -->
+</body>
+</html>
